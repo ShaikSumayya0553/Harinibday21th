@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <radialGradient id="waxGrad5" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#8B1A32"/>
+      <stop offset="60%" stop-color="#550818"/>
+      <stop offset="100%" stop-color="#2D020A"/>
+    </radialGradient>
+    <linearGradient id="goldGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3C4"/>
+      <stop offset="35%" stop-color="#E2BE64"/>
+      <stop offset="70%" stop-color="#B88928"/>
+      <stop offset="100%" stop-color="#7A5515"/>
+    </linearGradient>
+    <filter id="waxShadow5" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#waxShadow5)">
+    <path d="M102 12 C126 10 150 20 168 38 C186 56 192 82 190 106 C188 130 174 154 154 170 C134 186 108 192 84 188 C60 184 38 170 24 150 C10 130 6 105 10 80 C14 55 30 32 50 18 C68 8 82 12 102 12 Z" fill="url(#waxGrad5)"/>
+    <circle cx="100" cy="100" r="70" fill="none" stroke="#2D020A" stroke-width="4" opacity="0.6"/>
+    <circle cx="100" cy="100" r="66" fill="url(#waxGrad5)"/>
+    <circle cx="100" cy="100" r="62" fill="none" stroke="url(#goldGrad5)" stroke-width="1.8" opacity="0.85"/>
+  </g>
+
+  <!-- Entwined Hearts & Imperial Monogram with Roman Numeral V -->
+  <g fill="url(#goldGrad5)">
+    <!-- Entwined Royal Hearts Top -->
+    <path d="M95 58 C90 52 82 54 80 60 C78 68 88 74 95 80 C102 74 112 68 110 60 C108 54 100 52 95 58 Z" opacity="0.95"/>
+    <circle cx="95" cy="52" r="2.5" fill="url(#goldGrad5)"/>
+    <!-- Ornate Laurels -->
+    <path d="M68 86 Q64 110 78 126" stroke="url(#goldGrad5)" stroke-width="2" fill="none" opacity="0.85"/>
+    <path d="M132 86 Q136 110 122 126" stroke="url(#goldGrad5)" stroke-width="2" fill="none" opacity="0.85"/>
+    <!-- Roman Numeral V -->
+    <text x="100" y="120" font-family="'Cinzel', serif" font-size="34" font-weight="800" text-anchor="middle" fill="url(#goldGrad5)">V</text>
+    <!-- Bottom Baroque Scroll Flourish -->
+    <path d="M82 136 C92 140 108 140 118 136 C112 142 106 144 100 144 C94 144 88 142 82 136 Z"/>
+  </g>
+</svg>

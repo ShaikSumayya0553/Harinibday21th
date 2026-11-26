@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <radialGradient id="waxGrad4" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#801C2F"/>
+      <stop offset="60%" stop-color="#520A17"/>
+      <stop offset="100%" stop-color="#2B030A"/>
+    </radialGradient>
+    <linearGradient id="goldGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3C4"/>
+      <stop offset="35%" stop-color="#E2BE64"/>
+      <stop offset="70%" stop-color="#B88928"/>
+      <stop offset="100%" stop-color="#7A5515"/>
+    </linearGradient>
+    <filter id="waxShadow4" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#waxShadow4)">
+    <path d="M100 10 C126 12 150 22 168 40 C186 58 192 84 190 108 C186 132 174 154 154 170 C134 186 110 192 86 188 C62 184 40 170 26 150 C12 130 8 106 12 82 C16 58 32 36 52 22 C70 10 84 10 100 10 Z" fill="url(#waxGrad4)"/>
+    <circle cx="100" cy="100" r="70" fill="none" stroke="#2B030A" stroke-width="4" opacity="0.6"/>
+    <circle cx="100" cy="100" r="66" fill="url(#waxGrad4)"/>
+    <circle cx="100" cy="100" r="62" fill="none" stroke="url(#goldGrad4)" stroke-width="1.8" opacity="0.85"/>
+  </g>
+
+  <!-- Gilded Antique Rose & Roman Numeral IV -->
+  <g fill="url(#goldGrad4)">
+    <!-- Gilded Rose Blossom Top -->
+    <path d="M100 52 C95 52 90 56 92 62 C88 60 84 64 86 68 C82 68 82 74 86 76 C90 80 96 82 100 82 C104 82 110 80 114 76 C118 74 118 68 114 68 C116 64 112 60 108 62 C110 56 105 52 100 52 Z" opacity="0.9"/>
+    <!-- Rose Stems / Leaves -->
+    <path d="M90 78 Q82 82 80 90" stroke="url(#goldGrad4)" stroke-width="2" fill="none"/>
+    <path d="M110 78 Q118 82 120 90" stroke="url(#goldGrad4)" stroke-width="2" fill="none"/>
+    <!-- Roman Numeral IV -->
+    <text x="100" y="122" font-family="'Cinzel', serif" font-size="34" font-weight="800" text-anchor="middle" fill="url(#goldGrad4)">IV</text>
+    <!-- Bottom Flourish Ribbon -->
+    <path d="M80 136 C92 140 108 140 120 136 C114 142 106 144 100 144 C94 144 86 142 80 136 Z"/>
+  </g>
+</svg>
